@@ -262,7 +262,8 @@ public class CategoryLayer extends YDLayerBase {
     				Activity activity=CCDirector.sharedDirector().getActivity();
     				if (activity != null && activity instanceof MainActivity) {
 	    				MainActivity mainActivity=(MainActivity)activity;
-	    				mainActivity.prompt2upgrade();
+	    		 // The prompt2upgrade() methode is not defined in MainActivity class
+	    			//	mainActivity.prompt2upgrade();
     				}
     		    }
     		});

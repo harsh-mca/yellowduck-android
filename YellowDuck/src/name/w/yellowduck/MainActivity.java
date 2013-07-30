@@ -50,8 +50,8 @@ public class MainActivity extends Activity {
         gameLayout.addView(_glSurfaceView);    
         
         
-        YDConfiguration.sharedConfiguration().setAdWidth(AdSize.BANNER.getWidthInPixels(this));
-        YDConfiguration.sharedConfiguration().setAdHeight(AdSize.BANNER.getHeightInPixels(this));
+        YDConfiguration.sharedConfiguration().setAdWidth(AdSize.BANNER.getWidth());
+        YDConfiguration.sharedConfiguration().setAdHeight(AdSize.BANNER.getHeight());
     }
     
     @Override
