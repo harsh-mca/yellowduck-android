@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YellowDuck>
+
+    <Category
+        name="discovery"
+        author=""
+        icon="Assets/image/activities/discovery.svg" >
+        <Category
+            name="color_group"
+            author=""
+            icon="Assets/image/activities/discovery/eye_colors.svg" >
+            <Activity
+                name="colors"
+                author="Pascal Georges (pascal.georges1@free.fr)"
+                bg="Assets/image/activities/discovery/color/colors/clrs_bg.svg"
+                clz="color.ColorsScene"
+                credit=" "
+                difficulty="1"
+                icon="Assets/image/activities/discovery/color/colors.svg"
+                prerequisite="Can move the mouse" >
+            </Activity>
+            <Activity
+                name="color_mix_light"
+                author="Matilda Bernard (serah4291@gmail.com)"
+                bg="Assets/image/activities/discovery/color/clr_mix_light/clr_mix_light_bg.jpg"
+                clz="color.ColorMixingLightScene"
+                credit="Openclipart.org"
+                difficulty="1"
+                icon="Assets/image/activities/discovery/color/color_mix_light.svg" >
+            </Activity>
+            <Activity
+                name="color_mix"
+                author="Matilda Bernard (serah4291@gmail.com)"
+                bg="Assets/image/activities/discovery/color/clr_mix_light/clr_mix_light_bg.jpg"
+                clz="color.ColorMixingScene"
+                credit="Openclipart.org"
+                difficulty="4"
+                icon="Assets/image/activities/discovery/color/color_mix.svg" >
+            </Activity>
+            <Activity
+                name="mosaic"
+                author="Clement Coudoin (clement.coudoin@free.fr)"
+                bg="Assets/image/activities/discovery/color/mosaic/mosaic_bg.svg"
+                clz="color.MosaicScene"
+                difficulty="1"
+                icon="Assets/image/activities/discovery/color/mosaic.svg" >
+            </Activity>
+            <Activity
+                name="advanced_colors"
+                author="Pascal Georges (pascal.georges1@free.fr)"
+                bg="Assets/image/activities/discovery/color/advanced_colors/background.jpg"
+                clz="color.AdvancedColorsScene"
+                difficulty="6"
+                icon="Assets/image/activities/discovery/color/advanced_colors.svg"
+                prerequisite="Can read" >
+            </Activity>
+        </Category>
+        <Category
+            name="maze_group"
+            author=""
+            icon="Assets/image/activities/discovery/maze3D.svg" >
+            <Activity
+                name="maze"
+                author="Bastiaan Verhoef (b.f.verhoef@student.utwente.nl)"
+                bg="Assets/image/activities/discovery/maze/2d/maze-bg.png"
+                clz="maze.MazeScene"
+                difficulty="2"
+                icon="Assets/image/activities/discovery/maze/maze.svg"
+                prerequisite="Can use the keyboard arrow to move an object" >
+            </Activity>
+            <Activity
+                name="mazeInvisible"
+                author="Bastiaan Verhoef (b.f.verhoef@student.utwente.nl)"
+                bg="Assets/image/activities/discovery/maze/2d/maze-bg.png"
+                clz="maze.MazeScene"
+                difficulty="4"
+                icon="Assets/image/activities/discovery/maze/mazeInvisible.svg"
+                prerequisite="Can use the keyboard arrow to move an object"
+                settings="invisible" >
+            </Activity>
+        </Category>
+        <Category
+            name="memory_group"
+            icon="Assets/image/activities/discovery/memory_elephant.svg" >
+            <Activity
+                name="memory"
+                author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+                bg="Assets/image/activities/discovery/memory_group/memory/scenery_background.png"
+                clz="memory.MemoryScene"
+                difficulty="1"
+                icon="Assets/image/activities/discovery/memory_group/memory.svg"
+                prerequisite="Mouse-manipulation" />
+            <Activity
+                name="memory_sound"
+                author="Yves Combe (yves@ycombe.net)"
+                bg="Assets/image/activities/discovery/memory_group/memory/gcompris_band.jpg"
+                clz="memory.MemorySoundScene"
+                difficulty="1"
+                icon="Assets/image/activities/discovery/memory_group/memory_sound.svg"
+                prerequisite="Mouse manipulation, Brain." />
+            <Activity
+                name="railroad"
+                author="Pascal Georges (pascal.georges1@free.fr)"
+                bg="Assets/image/activities/discovery/memory_group/railroad/railroad-bg.png"
+                clz="memory.RailroadScene"
+                difficulty="1"
+                icon="Assets/image/activities/discovery/memory_group/railroad.svg"
+                prerequisite="None" />
+        </Category>
+        <Category
+            name="miscelaneous"
+            icon="Assets/image/activities/discovery/miscelaneous.svg" >
+            <Activity
+                name="babymatch"
+                author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+                bg="Assets/image/activities/discovery/miscelaneous/babymatch/xxxx.svg"
+                clz="misc.MatchScene"
+                difficulty="1"
+                icon="Assets/image/activities/discovery/miscelaneous/babymatch.svg"
+                prerequisite="Mouse manipulation: movement, drag and drop. Cultural references." />
+            <Activity
+                name="babyshapes"
+                author="Bruno Coudoin (bruno.coudoin@gcompris.net) / Andre Connes (andre.connes@toulouse.iufm.fr)"
+                bg="Assets/image/activities/discovery/miscelaneous/babyshapes/xxxx.svg"
+                clz="misc.BabyshapesScene"
+                difficulty="1"
+                icon="Assets/image/activities/discovery/miscelaneous/babyshapes.svg"
+                prerequisite="Good mouse-control" />
+            <Activity
+                name="chronos"
+                author="José Jorge (jjorge@free.fr)"
+                bg="Assets/image/activities/discovery/miscelaneous/chronos/xxxx.svg"
+                clz="misc.ChronosScene"
+                difficulty="1"
+                icon="Assets/image/activities/discovery/miscelaneous/chronos.svg"
+                prerequisite="Tell a short story" />
+            <Activity
+                name="leftright"
+                author="Pascal Georges (pascal.georges1@free.fr)"
+                bg="Assets/image/activities/discovery/miscelaneous/leftright/leftright-bg.svg"
+                clz="misc.LeftRightScene"
+                difficulty="1"
+                icon="Assets/image/activities/discovery/miscelaneous/leftright.svg"
+                prerequisite="None" />
+            <Activity
+                name="algorithm"
+                author="Christof Petig and Ingo Konrad"
+                bg="Assets/image/activities/discovery/miscelaneous/algorithm/scenery5_background.png"
+                clz="misc.AlgorithmScene"
+                difficulty="2"
+                icon="Assets/image/activities/discovery/miscelaneous/algorithm.svg"
+                prerequisite="Move and click the mouse" />
+            <Activity
+                name="clockgame"
+                author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+                bg="Assets/image/activities/discovery/miscelaneous/clockgame/xxxx.svg"
+                clz="misc.ClockGameScene"
+                difficulty="2"
+                icon="Assets/image/activities/discovery/miscelaneous/clockgame.svg"
+                prerequisite="The concept of time. Reading the time." />
+            <Activity
+                name="details"
+                author="Marc Levivier (malev@free.fr)"
+                bg="Assets/image/activities/discovery/miscelaneous/details/xxxx.svg"
+                clz="misc.DetailsScene"
+                difficulty="2"
+                icon="Assets/image/activities/discovery/miscelaneous/details.svg"
+                prerequisite="Good mouse-control" />
+            <Activity
+                name="doubleentry"
+                author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+                bg="Assets/image/activities/discovery/miscelaneous/doubleentry/xxxx.svg"
+                clz="misc.DoubleEntryScene"
+                difficulty="2"
+                icon="Assets/image/activities/discovery/miscelaneous/doubleentry.svg"
+                prerequisite="Basic counting skills" />
+            <Activity
+                name="geography"
+                author="Jean-Philippe Ayanides (jp.ayanides@free.fr)"
+                bg="Assets/image/activities/discovery/miscelaneous/geography/xxxx.svg"
+                clz="misc.GeographyScene"
+                difficulty="2"
+                icon="Assets/image/activities/discovery/miscelaneous/globe.svg"
+                prerequisite="Mouse manipulation: movement, drag and drop" />
+            <Activity
+                name="explore_world_animals"
+                author="Beth Hadley (bethmhadley@gmail.com)"
+                bg="Assets/image/activities/discovery/miscelaneous/explore_world_animals/world.jpg"
+                clz="misc.WorldAnimalsScene"
+                difficulty="4"
+                icon="Assets/image/activities/discovery/miscelaneous/explore_world_animals.svg" />
+        </Category>
+        <Category
+            name="sound_group"
+            icon="Assets/image/activities/discovery/ear.svg" >
+            <Activity
+                name="explore_farm_animals"
+                author="Beth Hadley (bethmhadley@gmail.com)"
+                bg="Assets/image/activities/discovery/sound_group/explore_farm_animals/farm-animals.jpg"
+                clz="soundgroup.ExploreFarmScene"
+                difficulty="2"
+                icon="Assets/image/activities/discovery/sound_group/explore_farm_animals.svg" />
+            <Activity
+                name="melody"
+                author="Jose JORGE (jjorge@free.fr)"
+                bg="Assets/image/activities/discovery/sound_group/melody/xxxx.svg"
+                clz="soundgroup.MelodyScene"
+                difficulty="2"
+                icon="Assets/image/activities/discovery/sound_group/melody.svg"
+                prerequisite="Move and click the mouse" />
+            <Activity
+                name="play_piano"
+                author="Beth Hadley (bethmhadley@gmail.com)"
+                bg="Assets/image/activities/discovery/sound_group/play_piano/xxxx.svg"
+                clz="soundgroup.PlayPianoScene"
+                credit="Bruno Coudoin for his mentorship."
+                difficulty="2"
+                icon="Assets/image/activities/discovery/sound_group/play_piano.svg"
+                prerequisite="Knowledge of musical notation and musical staff. Play the activity named &apos;Piano Composition&apos; first." />
+            <Activity
+                name="play_rhythm"
+                author="Beth Hadley (bethmhadley@gmail.com)"
+                bg="Assets/image/activities/discovery/sound_group/play_rhythm/xxxx.svg"
+                clz="soundgroup.PlayRhythmScene"
+                difficulty="3"
+                icon="Assets/image/activities/discovery/sound_group/play_rhythm.svg"
+                prerequisite="Simple understanding of musical rhythm and beat." />
+            <Activity
+                name="explore_world_music"
+                author="Beth Hadley (bethmhadley@gmail.com)"
+                bg="Assets/image/activities/discovery/sound_group/explore_world_music/worldmap.jpg"
+                clz="soundgroup.ExploreWorldMusicScene"
+                difficulty="4"
+                icon="Assets/image/activities/discovery/sound_group/explore_world_music.svg" />
+            <Activity
+                name="instruments"
+                author="Sylvain Dechy (syl.1@free.fr)"
+                bg="Assets/image/activities/discovery/sound_group/instruments/background.png"
+                clz="soundgroup.InstrumentsScene"
+                difficulty="4"
+                icon="Assets/image/activities/discovery/sound_group/instruments.svg" />
+            <Activity
+                name="note_names"
+                author="Beth Hadley (bethmhadley@gmail.com)"
+                bg="Assets/image/activities/discovery/sound_group/note_names/xxxx.svg"
+                clz="soundgroup.NoteNamesScene"
+                difficulty="4"
+                icon="Assets/image/activities/discovery/sound_group/note_names.svg"
+                prerequisite="None" />
+            <Activity
+                name="piano_composition"
+                author="Beth Hadley (bethmhadley@gmail.com)"
+                bg="Assets/image/activities/discovery/sound_group/piano_composition/xxxx.svg"
+                clz="soundgroup.PianoCompositionScene"
+                credit=""
+                difficulty="4"
+                icon="Assets/image/activities/discovery/sound_group/piano_composition.svg"
+                prerequisite="Familiarity with note naming conventions, note-names activity useful to learn this notation." />
+        </Category>
+    </Category>
+    <Category
+        name="reading"
+        icon="Assets/image/activities/book.svg" >
+        <Activity
+            name="click_on_letter"
+            author="Pascal Georges (pascal.georges1@free.fr)"
+            bg="Assets/image/activities/reading/click_on_letter/background.jpg"
+            clz="reading.ClickLetterScene"
+            difficulty="1"
+            icon="Assets/image/activities/reading/click_on_letter.svg"
+            prerequisite="Visual letter-recognition. Can move the mouse."
+            settings="lower" />
+        <Activity
+            name="click_on_letter_up"
+            author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+            bg="Assets/image/activities/reading/click_on_letter/background.jpg"
+            intr="click_on_letter"
+            clz="reading.ClickLetterScene"
+            difficulty="1"
+            icon="Assets/image/activities/reading/click_on_letter_up.svg"
+            prerequisite="Visual letter-recognition. Can move the mouse."
+            settings="up" />
+        <Activity
+            name="memory_wordnumber"
+            author="Yves Combe (yves@ycombe.net)"
+            bg="Assets/image/activities/discovery/memory_group/memory/scenery_background.png"
+            clz="reading.MemoryWorldNumberScene"
+            difficulty="1"
+            icon="Assets/image/activities/reading/memo_wordnumber.svg"
+            prerequisite="Reading" />
+        <Activity
+            name="imageid"
+            author="Pascal Georges (pascal.georges1@free.fr)"
+            bg="Assets/image/activities/reading/imageid/imageid-bg.jpg"
+            clz="reading.ReadingScene"
+            difficulty="2"
+            icon="Assets/image/activities/reading/imageid.svg"
+            prerequisite="Reading" />
+        <Activity
+            name="missing_letter"
+            author="Pascal Georges (pascal.georges1@free.fr)"
+            bg="Assets/image/activities/reading/missing_letter/missingletter-bg.jpg"
+            clz="reading.MissingLetterScene"
+            difficulty="2"
+            icon="Assets/image/activities/reading/missing_letter.svg"
+            prerequisite="Word reading" />
+        <Activity
+            name="imagename"
+            author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+            bg="Assets/image/activities/reading/imagename/xxxx.svg"
+            clz="reading.ImageNameScene"
+            difficulty="3"
+            icon="Assets/image/activities/reading/imagename.svg"
+            prerequisite="Reading" />
+        <Activity
+            name="hangman"
+            author="Bruno Coudoin"
+            bg="Assets/image/activities/reading/hangman/back.png"
+            clz="reading.HangManScene"
+            difficulty="5"
+            icon="Assets/image/activities/reading/hangman.svg"
+            prerequisite="Reading skill" />
+    </Category>
+    <Category
+        name="math"
+        icon="Assets/image/activities/math.svg" >
+        <Category
+            name="algebramenu"
+            icon="Assets/image/activities/math/algebramenu.svg" >
+            <Category
+                name="algebra_group"
+                icon="Assets/image/activities/math/algebra_group.svg" >
+                <Activity
+                    name="algebra_plus"
+                    author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+                    bg="Assets/image/activities/math/algebra_group/algebra/background.png"
+                    clz="algebragroup.AlgebraScene"
+                    difficulty="1"
+                    icon="Assets/image/activities/math/algebra_group/algebra_plus.svg"
+                    prerequisite="Simple addition. Can recognize written numbers"
+                    settings="+" />
+                <Activity
+                    name="algebra_minus"
+                    author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+                    bg="Assets/image/activities/math/algebra_group/algebra/background.png"
+                    clz="algebragroup.AlgebraScene"
+                    difficulty="2"
+                    icon="Assets/image/activities/math/algebra_group/algebra_minus.svg"
+                    prerequisite="Simple subtraction"
+                    settings="-" />
+                <Activity
+                    name="algebra_by"
+                    author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+                    bg="Assets/image/activities/math/algebra_group/algebra/background.png"
+                    clz="algebragroup.AlgebraScene"
+                    difficulty="3"
+                    icon="Assets/image/activities/math/algebra_group/algebra_by.svg"
+                    prerequisite="Simple subtraction"
+                    settings="*" />
+            </Category>
+            <Category
+                name="memory_op_group"
+                icon="Assets/image/activities/math/mem_solo_calc.svg" >
+                <Activity
+                    name="memory_add"
+                    author="Yves Combe (yves@ycombe.net)"
+                    bg="Assets/image/activities/discovery/memory_group/memory/scenery_background.png"
+                    clz="memoryop.MemoryOpScene"
+                    difficulty="1"
+                    icon="Assets/image/activities/math/memory_op_group/mem_solo_plus.svg"
+                    prerequisite="Addition"
+                    settings="+" />
+                <Activity
+                    name="memory_minus"
+                    author="Yves Combe (yves@ycombe.net)"
+                    bg="Assets/image/activities/discovery/memory_group/memory/scenery_background.png"
+                    clz="memoryop.MemoryOpScene"
+                    difficulty="1"
+                    icon="Assets/image/activities/math/memory_op_group/mem_solo_minus.svg"
+                    intr="memory_add"
+                    prerequisite="Substract"
+                    settings="-" />
+                <Activity
+                    name="memory_add_minus"
+                    author="Yves Combe (yves@ycombe.net)"
+                    bg="Assets/image/activities/discovery/memory_group/memory/scenery_background.png"
+                    clz="memoryop.MemoryOpScene"
+                    difficulty="1"
+                    icon="Assets/image/activities/math/memory_op_group/mem_solo_plus_minus.svg"
+                    intr="memory_add"
+                    prerequisite="?"
+                    settings="+-" />
+                <Activity
+                    name="memory_mult"
+                    author="Yves Combe (yves@ycombe.net)"
+                    bg="Assets/image/activities/discovery/memory_group/memory/scenery_background.png"
+                    clz="memoryop.MemoryOpScene"
+                    difficulty="1"
+                    icon="Assets/image/activities/math/memory_op_group/mem_solo_mult.svg"
+                    intr="memory_add"
+                    prerequisite="?"
+                    settings="*" />
+                <Activity
+                    name="memory_div"
+                    author="Yves Combe (yves@ycombe.net)"
+                    bg="Assets/image/activities/discovery/memory_group/memory/scenery_background.png"
+                    clz="memoryop.MemoryOpScene"
+                    difficulty="1"
+                    icon="Assets/image/activities/math/memory_op_group/mem_solo_div.svg"
+                    intr="memory_add"
+                    prerequisite="?"
+                    settings="/" />
+                <Activity
+                    name="memory_mult_div"
+                    author="Yves Combe (yves@ycombe.net)"
+                    bg="Assets/image/activities/discovery/memory_group/memory/scenery_background.png"
+                    clz="memoryop.MemoryOpScene"
+                    difficulty="1"
+                    icon="Assets/image/activities/math/memory_op_group/mem_solo_mult_div.svg"
+                    intr="memory_add"
+                    prerequisite="?"
+                    settings="*/" />
+                <Activity
+                    name="memory_add_minus_mult_div"
+                    author="Yves Combe (yves@ycombe.net)"
+                    bg="Assets/image/activities/discovery/memory_group/memory/scenery_background.png"
+                    clz="memoryop.MemoryOpScene"
+                    difficulty="1"
+                    icon="Assets/image/activities/math/memory_op_group/mem_solo_all.svg"
+                    intr="memory_add"
+                    prerequisite="?"
+                    settings="+-*/" />
+            </Category>
+            <Category
+                name="gnumchmenu"
+                icon="Assets/image/activities/math/gnumch.svg" >
+                <Activity
+                    name="gnumch-equality"
+                    author="Joe Neeman (spuzzzzzzz@gmail.com)"
+                    bg="Assets/image/activities/math/gnumchmenu/gnumch-equality/xxxx.svg"
+                    clz="gnumchmenu.GnumchScene"
+                    difficulty="3"
+                    icon="Assets/image/activities/math/gnumchmenu/gnumch-equal.svg"
+                    settings="equality" />
+                <Activity
+                    name="gnumch-inequality"
+                    author="Joe Neeman (spuzzzzzzz@gmail.com)"
+                    bg="Assets/image/activities/math/gnumchmenu/gnumch-inequality/xxxx.svg"
+                    clz="gnumchmenu.GnumchScene"
+                    difficulty="3"
+                    icon="Assets/image/activities/math/gnumchmenu/gnumch-inequal.svg"
+                    settings="inequality" />
+                <Activity
+                    name="gnumch-multiples"
+                    author="Joe Neeman (spuzzzzzzz@gmail.com)"
+                    bg="Assets/image/activities/math/gnumchmenu/gnumch-multiples/xxxx.svg"
+                    clz="gnumchmenu.GnumchScene"
+                    difficulty="3"
+                    icon="Assets/image/activities/math/gnumchmenu/gnumch-multiples.svg"
+                    settings="multiples" />
+                <Activity
+                    name="gnumch-factors"
+                    author="Joe Neeman (spuzzzzzzz@gmail.com)"
+                    bg="Assets/image/activities/math/gnumchmenu/gnumch-factors/xxxx.svg"
+                    clz="gnumchmenu.GnumchScene"
+                    difficulty="5"
+                    icon="Assets/image/activities/math/gnumchmenu/gnumch-factors.svg"
+                    settings="factors" />
+                <Activity
+                    name="gnumch-primes"
+                    author="Joe Neeman (spuzzzzzzz@gmail.com)"
+                    bg="Assets/image/activities/math/gnumchmenu/gnumch-primes/xxxx.svg"
+                    clz="gnumchmenu.GnumchScene"
+                    difficulty="6"
+                    icon="Assets/image/activities/math/gnumchmenu/gnumch-primes.svg"
+                    settings="primes" />
+            </Category>
+            <Activity
+                name="scalesboard"
+                author="miguel DE IZARRA (miguel2i@free.fr)"
+                bg="Assets/image/activities/math/algebramenu/scalesboard/tabepice.jpg"
+                clz="algebramenu.ScalesboardScene"
+                difficulty="2"
+                icon="Assets/image/activities/math/algebramenu/scalesicon.svg"
+                settings="count" />
+            <Activity
+                name="target"
+                author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+                bg="Assets/image/activities/math/algebramenu/target/target_background.svg"
+                clz="algebramenu.TargetScene"
+                difficulty="2"
+                icon="Assets/image/activities/math/algebramenu/target.svg"
+                prerequisite="Can move the mouse, can read numbers and count up to 15 for the first level" />
+            <Activity
+                name="algebra_guesscount"
+                author="Pascal Georges (pascal.georges1@free.fr)"
+                bg="Assets/image/activities/math/algebramenu/algebra_guesscount/tigercub003.jpg"
+                clz="algebramenu.GuessCountScene"
+                difficulty="3"
+                icon="Assets/image/activities/math/algebramenu/algebra_guesscount.svg"
+                prerequisite="The four arithmetic operations. Combine several arithmetic operations." />
+            <Activity
+                name="scalesboard_weight"
+                author="Wolfram Sang (wolfram@iswi.org)"
+                bg="Assets/image/activities/math/algebramenu/scalesboard/tabepice.jpg"
+                intr="scalesboard"
+                clz="algebramenu.ScalesboardScene"
+                difficulty="4"
+                icon="Assets/image/activities/math/algebramenu/scalesboard_weight.svg"
+                settings="weight" />
+        </Category>
+        <Category
+            name="geometry"
+            icon="Assets/image/activities/math/geometry.svg" >
+            <Activity
+                name="draw"
+                author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+                bg="Assets/image/activities/math/geometry/draw/xxxx.svg"
+                clz="geometry.DrawScene"
+                difficulty="2"
+                icon="Assets/image/activities/math/geometry/draw.svg"
+                prerequisite="Needs to be capable of moving and clicking the mouse easily" />
+            <Activity
+                name="redraw"
+                author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+                bg="Assets/image/activities/math/geometry/redraw/xxxx.svg"
+                clz="geometry.ReDrawScene"
+                difficulty="3"
+                icon="Assets/image/activities/math/geometry/redraw.svg" />
+            <Activity
+                name="redraw_symmetrical"
+                author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+                bg="Assets/image/activities/math/geometry/redraw_symmetrical/xxxx.svg"
+                clz="geometry.ReDrawScene"
+                difficulty="4"
+                icon="Assets/image/activities/math/geometry/redraw_symmetry.svg"
+                settings="symmetrical" />
+        </Category>
+        <Category
+            name="numeration"
+            icon="Assets/image/activities/math/numeration.svg" >
+            <Category
+                name="money_group"
+                icon="Assets/image/activities/math/numeration/money_group.svg" >
+                <Activity
+                    name="money"
+                    author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+                    bg="Assets/image/activities/math/numeration/money_group/money/money-bg.png"
+                    clz="moneygroup.MoneyScene"
+                    difficulty="2"
+                    icon="Assets/image/activities/math/numeration/money_group/money.svg"
+                    prerequisite="Can count"
+                    settings="0" />
+                <Activity
+                    name="money_back"
+                    author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+                    bg="Assets/image/activities/math/numeration/money_group/money/money-bg.png"
+                    clz="moneygroup.MoneyScene"
+                    difficulty="3"
+                    icon="Assets/image/activities/math/numeration/money_group/money_back.svg"
+                    prerequisite="Can count"
+                    settings="1" />
+                <Activity
+                    name="money_back_cents"
+                    author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+                    bg="Assets/image/activities/math/numeration/money_group/money/money-bg.png"
+                    intr="money_back"
+                    clz="moneygroup.MoneyScene"
+                    difficulty="5"
+                    icon="Assets/image/activities/math/numeration/money_group/money_back_cents.svg"
+                    prerequisite="Can count"
+                    settings="2" />
+                <Activity
+                    name="money_cents"
+                    author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+                    bg="Assets/image/activities/math/numeration/money_group/money/money-bg.png"
+                    intr="money"
+                    clz="moneygroup.MoneyScene"
+                    difficulty="5"
+                    icon="Assets/image/activities/math/numeration/money_group/money_cents.svg"
+                    prerequisite="Can count"
+                    settings="3" />
+            </Category>
+            <Activity
+                name="enumerate"
+                author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+                bg="Assets/image/activities/math/numeration/enumerate/enumerate_background.png"
+                clz="numeration.EnumerateScene"
+                difficulty="1"
+                icon="Assets/image/activities/math/numeration/enumerate.svg"
+                prerequisite="Basic enumeration" />
+            <Activity
+                name="memory_enumerate"
+                author="Yves Combe (yves@ycombe.net)"
+                bg="Assets/image/activities/discovery/memory_group/memory/scenery_background.png"
+                clz="numeration.MemoryEnumerateScene"
+                difficulty="1"
+                icon="Assets/image/activities/math/numeration/memo_enumerate.svg"
+                prerequisite="Addition" />
+            <Activity
+                name="smallnumbers2"
+                author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+                bg="Assets/image/activities/math/numeration/smallnumbers/scenery7_background.png"
+                clz="numeration.SmallNumber2Scene"
+                difficulty="1"
+                icon="Assets/image/activities/math/numeration/smallnumbers2.svg"
+                prerequisite="Counting skills" />
+            <Activity
+                name="magic_hat_minus"
+                author="Marc BRUN"
+                bg="Assets/image/activities/math/numeration/magic_hat_minus/magic_hat_minus_bg.png"
+                clz="numeration.MagicHatScene"
+                difficulty="2"
+                icon="Assets/image/activities/math/numeration/magic_hat_minus.svg"
+                prerequisite="Subtraction"
+                settings="-" />
+            <Activity
+                name="magic_hat_plus"
+                author="Marc BRUN"
+                bg="Assets/image/activities/math/numeration/magic_hat_minus/magic_hat_plus_bg.png"
+                clz="numeration.MagicHatScene"
+                difficulty="2"
+                icon="Assets/image/activities/math/numeration/magic_hat_plus.svg"
+                prerequisite="Addition"
+                settings="+" />
+            <Activity
+                name="planegame"
+                author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+                bg="Assets/image/activities/math/numeration/planegame/background.svg"
+                clz="numeration.PlaneGameScene"
+                difficulty="2"
+                icon="Assets/image/activities/math/numeration/helicogame.svg"
+                prerequisite="Number" />
+            <Activity
+                name="reversecount"
+                author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+                bg="Assets/image/activities/math/numeration/reversecount/elephant_mer.jpg"
+                clz="numeration.ReverseCountScene"
+                difficulty="2"
+                icon="Assets/image/activities/math/numeration/reversecount.svg"
+                prerequisite="Can move the mouse, can read numbers and subtract numbers up to 10 for the first level" />
+            <Activity
+                name="guessnumber"
+                author="Clement Coudoin (clement.coudoin@free.fr)"
+                bg="Assets/image/activities/math/numeration/guessnumber/cave.png"
+                clz="numeration.GuessNumberScene"
+                difficulty="3"
+                icon="Assets/image/activities/math/numeration/guessnumber.svg"
+                prerequisite="Numbers from 1 to 1000 for the last level." />
+            <Activity
+                name="drawnumber"
+                author="Olivier Ponchaut (opvg@edpnet.be)"
+                bg="Assets/image/activities/math/numeration/drawnumber/xxxx.svg"
+                clz="numeration.DrawNumberScene"
+                difficulty="4"
+                icon="Assets/image/activities/math/numeration/drawnumber.svg"
+                prerequisite="Can count from 1 to 50." />
+        </Category>
+    </Category>
+    <Category
+        name="puzzle"
+        icon="Assets/image/activities/puzzles.svg" >
+        <Activity
+            name="hexagon"
+            author="Christof Petig and Ingo Konrad"
+            bg="Assets/image/activities/puzzle/hexagon/xxxx.svg"
+            clz="puzzle.HexagonScene"
+            difficulty="1"
+            icon="Assets/image/activities/puzzle/hexagon_fun.svg" />
+        <Activity
+            name="paintings"
+            author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+            bg="Assets/image/activities/puzzle/paintings/xxxx.svg"
+            clz="puzzle.PaintingsScene"
+            difficulty="1"
+            icon="Assets/image/activities/puzzle/shapegame.svg" />
+        <Activity
+            name="tangram"
+            author="Yves Combe /  Philippe Banwarth"
+            bg="Assets/image/activities/puzzle/tangram/gtans_bg.png"
+            clz="puzzle.TangramScene"
+            difficulty="1"
+            icon="Assets/image/activities/puzzle/tangram.svg" />
+        <Activity
+            name="crane"
+            author="Marc BRUN"
+            bg="Assets/image/activities/puzzle/crane/crane-bg.jpg"
+            clz="puzzle.CraneScene"
+            difficulty="2"
+            icon="Assets/image/activities/puzzle/crane.svg" />
+        <Activity
+            name="photohunter"
+            author="Marc Le Douarain (http://membres.lycos.fr/mavati)"
+            bg="Assets/image/activities/puzzle/photohunter/xxxx.svg"
+            clz="puzzle.PhotoHunterScene"
+            difficulty="2"
+            icon="Assets/image/activities/puzzle/photohunter.svg" />
+        <Activity
+            name="superbrain"
+            author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+            bg="Assets/image/activities/puzzle/superbrain/superbrain_background.jpg"
+            clz="puzzle.SuperBrainScene"
+            difficulty="2"
+            icon="Assets/image/activities/puzzle/superbrain.svg" />
+        <Activity
+            name="traffic"
+            author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+            bg="Assets/image/activities/puzzle/traffic/traffic-bg.jpg"
+            clz="puzzle.TrafficScene"
+            difficulty="2"
+            icon="Assets/image/activities/puzzle/traffic.svg" />
+        <Activity
+            name="hanoi_real"
+            author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+            bg="Assets/image/activities/puzzle/hanoi_real/bg.jpg"
+            clz="puzzle.HanoiScene"
+            credit="http://vickiwenderlich.com"
+            difficulty="3"
+            icon="Assets/image/activities/puzzle/hanoi_real.svg" />
+        <Activity
+            name="sudoku"
+            author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+            bg="Assets/image/activities/puzzle/sudoku/background.jpg"
+            clz="puzzle.SudokuScene"
+            difficulty="4"
+            icon="Assets/image/activities/puzzle/sudoku.svg" />
+        <Activity
+            name="fifteen"
+            author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+            bg="Assets/image/activities/puzzle/fifteen/background.jpg"
+            clz="puzzle.FifteenScene"
+            difficulty="5"
+            icon="Assets/image/activities/puzzle/fifteen.svg" />
+        <Activity
+            name="lightsoff"
+            author="Bruno and Clément coudoin"
+            bg="Assets/image/activities/puzzle/lightsoff/back.png"
+            clz="puzzle.LightsoffScene"
+            difficulty="6"
+            icon="Assets/image/activities/puzzle/lightsoff.svg" />
+    </Category>
+    <Category
+        name="strategy"
+        icon="Assets/image/activities/strategy.svg" >
+        <Activity
+            name="connect4"
+            author="Laurent Lacheny (laurent.lacheny@wanadoo.fr)"
+            bg="Assets/image/activities/strategy/connect4/back.png"
+            clz="strategy.connect4.Connect4Scene"
+            difficulty="2"
+            icon="Assets/image/activities/strategy/connect4.svg" />
+        <Activity
+            name="chinesecheckers"
+            author="support@playtractor.com"
+            bg="Assets/image/activities/strategy/chinesecheckers/checkersbg.svg"
+            clz="strategy.chinesecheckers.ChineseCheckersScene"
+            difficulty="2"
+            icon="Assets/image/activities/strategy/Chinese_checkers_start.svg" />
+    </Category>
+    <Category
+        name="experience"
+        icon="Assets/image/activities/experience.svg" >
+        <Activity
+            name="paratrooper"
+            author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+            bg="Assets/image/activities/experience/paratrooper/background.jpg"
+            clz="experience.ParatrooperScene"
+            difficulty="1"
+            icon="Assets/image/activities/experience/tuxpara.svg" />
+        <Activity
+            name="canal_lock"
+            author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+            bg="Assets/image/activities/experience/canal_lock/canal_lock.jpg"
+            clz="experience.CanalLockScene"
+            difficulty="2"
+            icon="Assets/image/activities/experience/canal_lock.svg" />
+        <Activity
+            name="watercycle"
+            author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+            bg="Assets/image/activities/experience/watercycle/bg.png"
+            clz="experience.WaterCycleScene"
+            difficulty="3"
+            icon="Assets/image/activities/experience/watercycle.svg" />
+        <Activity
+            name="hydroelectric"
+            author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+            bg="Assets/image/activities/experience/hydroelectric/bg.png"
+            clz="experience.HydroElectricScene"
+            difficulty="4"
+            icon="Assets/image/activities/experience/hydroelectric.svg" />
+        <Activity
+            name="land_safe"
+            author="Matilda Bernard (serah4291@gmail.com)"
+            bg="Assets/image/activities/experience/land_safe/background.jpg"
+            clz="experience.LandSafeScene"
+            difficulty="4"
+            icon="Assets/image/activities/experience/land_safe.svg" />
+        <Activity
+            name="electric"
+            author="Bruno Coudoin (bruno.coudoin@gcompris.net)"
+            bg="Assets/image/activities/experience/electric/circuit-board.jpg"
+            clz="experience.ElectricScene"
+            difficulty="5"
+            icon="Assets/image/activities/experience/electric.svg" />
+    </Category>
+
+</YellowDuck>

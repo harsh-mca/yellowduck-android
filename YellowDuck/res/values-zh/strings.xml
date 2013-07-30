@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="localization">zh_CN</string>
+    <string name="app_name">Yellow Duck Educational Software Suite</string>
+    <string name="title_activity_main">Yellow Duck</string>
+    <string name="msg_installation_err">Yellow Duck is not properly installed. Please reinstall it.</string>
+    
+    <string name="prompt_upgrade">请升级到完整版。只需要%。</string>
+    <string name="prompt_upgrade_failed">升级失败，请稍后再试。</string>
+    <string name="prompt_upgrade_thanks">谢谢！</string>
+    <string name="title_upgrade_to_full">升级到完整版</string>
+ 	<string name="btn_ok">确定</string>
+ 	<string name="btn_cancel">取消</string>
+ 	<string name="btn_purchase">购买</string>
+ 	<string name="btn_purchased_before">以前买过</string>
+</resources>

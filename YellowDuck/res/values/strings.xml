@@ -1,0 +1,15 @@
+<resources>
+    <string name="localization">en</string>
+    <string name="app_name">Yellow Duck Educational Software Suite</string>
+    <string name="title_activity_main">Yellow Duck</string>
+    <string name="msg_installation_err">Yellow Duck is not properly installed. Please reinstall it.</string>
+
+    <string name="prompt_upgrade">Please upgrade to full version to unlock all activities. It is only %s.</string>
+    <string name="prompt_upgrade_failed">Failed to complete the transaction. Please try again later.</string>
+    <string name="prompt_upgrade_thanks">Thank you!</string>
+    <string name="title_upgrade_to_full">Upgrade to Full Version</string>
+ 	<string name="btn_ok">OK</string>
+ 	<string name="btn_cancel">Cancel</string>
+ 	<string name="btn_purchase">Purchase</string>
+ 	<string name="btn_purchased_before">Purchased Already</string>
+</resources>
