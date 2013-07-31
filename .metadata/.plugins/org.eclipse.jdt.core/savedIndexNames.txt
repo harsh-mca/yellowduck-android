@@ -1,0 +1,7 @@
+INDEX VERSION 1.126+G:\Yellowduck\.metadata\.plugins\org.eclipse.jdt.core
+1617983953.index
+3209639912.index
+3777519670.index
+1909931303.index
+648458062.index
+3000994514.index

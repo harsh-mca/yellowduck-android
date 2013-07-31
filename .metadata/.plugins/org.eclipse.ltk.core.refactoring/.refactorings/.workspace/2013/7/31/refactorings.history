@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MainActivity&apos; to &apos;YellowDuck&apos;" description="Rename resource &apos;MainActivity&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/MainActivity" name="YellowDuck" stamp="1375169153661" updateReferences="true"/>
+</session>
