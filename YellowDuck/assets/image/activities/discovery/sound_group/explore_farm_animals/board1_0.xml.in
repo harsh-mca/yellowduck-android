@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ShapeGame>
+    <Shape name="horse" pixmapfile="horse.jpg" x="514" y="152" zoomx="1" zoomy="1" position="0" sound="horse.mp3" />
+    <Shape name="chicken" pixmapfile="chicken.jpg" x="279" y="460" zoomx="1" zoomy="1" position="0" sound="chickens.mp3" />
+    <Shape name="cow" pixmapfile="cow.jpg" x="565" y="360" zoomx="1" zoomy="1" position="0" sound="cow.mp3" />
+    <Shape name="cat" pixmapfile="cat.jpg" x="366" y="200" zoomx="1" zoomy="1" position="0" sound="cat.mp3" />
+    <Shape name="pig" pixmapfile="pig.jpg" x="645" y="450" zoomx="1" zoomy="1" position="0" sound="pig.mp3" />
+    <Shape name="duck" pixmapfile="duck.jpg" x="185" y="450" zoomx="1" zoomy="1" position="0" sound="duck.mp3" />
+    <Shape name="owl" pixmapfile="owl.jpg" x="630" y="106" zoomx="1" zoomy="1" position="0" sound="owl.mp3" />
+    <Shape name="dog" pixmapfile="dog.jpg" x="210" y="300" zoomx="1" zoomy="1" position="0" sound="dog.mp3" />
+    <Shape name="rooster" pixmapfile="rooster.jpg" x="565" y="450" zoomx="1" zoomy="1" position="0" sound="rooster.mp3" />
+</ShapeGame>

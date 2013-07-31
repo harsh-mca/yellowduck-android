@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ImageId>
+    <shape name="1" targetfile="" pixmapfile="imageid/bed.png" position="0" x="0" y="0" extra="bed/bottle/book/back"/>
+    <shape name="2" targetfile="" pixmapfile="imageid/bottle.png" position="0" x="0" y="0" extra="bottle/book/back/car"/>
+    <shape name="3" targetfile="" pixmapfile="imageid/cake.png" position="0" x="0" y="0" extra="cake/camel/bottle"/>
+    <shape name="4" targetfile="" pixmapfile="imageid/ballon.png" position="0" x="0" y="0" extra="ball/boat/bottle/car/fish"/>
+    <shape name="5" targetfile="" pixmapfile="imageid/car.png" position="0" x="0" y="0" extra="car/boat/catch/cat"/>
+    <shape name="6" targetfile="" pixmapfile="imageid/chien.png" position="0" x="0" y="0" extra="dog/cat/bottle/fish"/>
+    <shape name="7" targetfile="" pixmapfile="imageid/fish.png" position="0" x="0" y="0" extra="fish/finish/cat/boat"/>
+    <shape name="8" targetfile="" pixmapfile="imageid/avion.png" position="0" x="0" y="0" extra="plane/boat/car/bottle/dog/finish"/>
+</ImageId>

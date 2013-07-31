@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ShapeGame>
+    <Shape name="jaguar" pixmapfile="jaggy.jpg" x="263" y="221" zoomx="1" zoomy="1" position="0" sound="" />
+    <Shape name="hedgehog" pixmapfile="hedgy.jpg" x="428" y="90" zoomx="1" zoomy="1" position="0" sound="" />
+    <Shape name="giraffe" pixmapfile="giraffe.jpg" x="443" y="193" zoomx="1" zoomy="1" position="0" sound="" />
+    <Shape name="bison" pixmapfile="bison.jpg" x="180" y="127" zoomx="1" zoomy="1" position="0" sound="" />
+    <Shape name="narwhal" pixmapfile="narwhal.jpg" x="385" y="39" zoomx="1" zoomy="1" position="0" sound="" />
+    <Shape name="panda" pixmapfile="panda.jpg" x="604" y="120" zoomx="1" zoomy="1" position="0" sound="" />
+</ShapeGame>

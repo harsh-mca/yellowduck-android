@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ShapeGame>
+  <Shape name="A" pixmapfile="imagename/bottle.png"
+	 x="194" y="90" zoomx="1" zoomy="1" position="0"/>
+  <Title x="194" y="200" justification="GTK_JUSTIFY_CENTER" name="name_bottle" />
+  <Shape name="D" pixmapfile="imagename/glass.png"
+	 x="194" y="340" zoomx="1" zoomy="1" position="0"/>
+  <Title x="194" y="450" justification="GTK_JUSTIFY_CENTER" name="name_glass" />
+  <Shape name="B" pixmapfile="imagename/egg.png"
+	 x="394" y="90" zoomx="1" zoomy="1" position="0"/>
+  <Title x="394" y="200" justification="GTK_JUSTIFY_CENTER" name="name_egg" />
+  <Shape name="E" pixmapfile="imagename/eggpot.png"
+	 x="394" y="340" zoomx="1" zoomy="1" position="0"/>
+  <Title x="394" y="450" justification="GTK_JUSTIFY_CENTER" name="name_eggcup" />
+  <Shape name="M" pixmapfile="imagename/flower.png"
+	 x="594" y="90" zoomx="1" zoomy="1" position="0" />
+  <Title x="594" y="200" justification="GTK_JUSTIFY_CENTER" name="name_flower" />
+  <Shape name="F" pixmapfile="imagename/flowerpot.png"
+	 x="594" y="340" zoomx="1" zoomy="1" position="0"/>
+  <Title x="594" y="450" justification="GTK_JUSTIFY_CENTER" name="name_vase" />
+</ShapeGame>

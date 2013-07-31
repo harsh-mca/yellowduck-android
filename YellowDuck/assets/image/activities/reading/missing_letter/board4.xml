@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<missing_letter>
+    <shape name="1" targetfile="" pixmapfile="missing_letter/avion.png" position="0" x="0" y="0" extra="plane/p_ane/l/j/i/t"/>
+    <shape name="1" targetfile="" pixmapfile="missing_letter/chien.png" position="0" x="0" y="0" extra="dog/d_g/o/g/a/u"/>
+    <shape name="1" targetfile="" pixmapfile="missing_letter/fish.png" position="0" x="0" y="0" extra="fish/_ish/f/h/l/j"/>
+    <shape name="1" targetfile="" pixmapfile="missing_letter/car.png" position="0" x="0" y="0" extra="car/_ar/c/k/b/u"/>
+    <shape name="1" targetfile="" pixmapfile="missing_letter/cartable.png" position="0" x="0" y="0" extra="satchel/_atchel/s/c/l/z"/>
+    <shape name="1" targetfile="" pixmapfile="missing_letter/banana.png" position="0" x="0" y="0" extra="banana/_anana/b/p/d/m"/>
+    <shape name="1" targetfile="" pixmapfile="missing_letter/maison.png" position="0" x="0" y="0" extra="house/h_use/o/f/u/i"/>
+    <shape name="1" targetfile="" pixmapfile="missing_letter/pomme.png" position="0" x="0" y="0" extra="apple/appl_/e/h/a/i/o/u"/>
+</missing_letter>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ShapeGame>
+    <Shape name="australia" pixmapfile="australia.jpg" x="678" y="260" zoomx="1" zoomy="1" position="0" sound="australia.mp3" />
+    <Shape name="africa" pixmapfile="africa.jpg" x="449" y="200" zoomx="1" zoomy="1" position="0" sound="africa.mp3" />
+    <Shape name="middleeast" pixmapfile="middleeast.jpg" x="500" y="134" zoomx="1" zoomy="1" position="0" sound="middleeast.mp3" />
+    <Shape name="japan" pixmapfile="japan.jpg" x="691" y="133" zoomx="1" zoomy="1" position="0" sound="japan.mp3" />
+    <Shape name="ireland" pixmapfile="ireland.jpg" x="382" y="90" zoomx="1" zoomy="1" position="0" sound="ireland.mp3" />
+    <Shape name="italy" pixmapfile="italy.jpg" x="421" y="120" zoomx="1" zoomy="1" position="0" sound="italy.mp3" />
+    <Shape name="europe" pixmapfile="orchestra.jpg" x="425" y="90" zoomx="1" zoomy="1" position="0" sound="beethoven.mp3" />
+    <Shape name="mexico" pixmapfile="mexico.jpg" x="185" y="170" zoomx="1" zoomy="1" position="0" sound="mexico.mp3" />
+    <Shape name="america" pixmapfile="america.jpg" x="184" y="141" zoomx="1" zoomy="1" position="0" sound="america.mp3" />
+</ShapeGame>

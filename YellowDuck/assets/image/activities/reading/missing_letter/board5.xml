@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<missing_letter>
+    <shape name="1" targetfile="" pixmapfile="missing_letter/bed.png" position="0" x="0" y="0" extra="bed/b_d/e/a/i/o/u/s"/>
+    <shape name="1" targetfile="" pixmapfile="missing_letter/bottle.png" position="0" x="0" y="0" extra="bottle/b_ttle/o/u/d/a/t/i"/>
+    <shape name="1" targetfile="" pixmapfile="missing_letter/cake.png" position="0" x="0" y="0" extra="cake/c_ke/a/o/e/i/u/y"/>
+    <shape name="1" targetfile="" pixmapfile="missing_letter/ballon.png" position="0" x="0" y="0" extra="ball/b_ll/a/u/o/e/i/y"/>
+    <shape name="1" targetfile="" pixmapfile="missing_letter/avion.png" position="0" x="0" y="0" extra="plane/pl_ne/a/o/s/e/i/u/y"/>
+    <shape name="1" targetfile="" pixmapfile="missing_letter/chien.png" position="0" x="0" y="0" extra="dog/do_/g/p/q/q/k"/>
+    <shape name="1" targetfile="" pixmapfile="missing_letter/fish.png" position="0" x="0" y="0" extra="fish/fis_/h/o/i/y/z"/>
+    <shape name="1" targetfile="" pixmapfile="missing_letter/car.png" position="0" x="0" y="0" extra="car/ca_/r/w/k/c/a"/>
+    <shape name="1" targetfile="" pixmapfile="missing_letter/cartable.png" position="0" x="0" y="0" extra="satchel/sa_chel/t/p/c/z/s/l"/>
+    <shape name="1" targetfile="" pixmapfile="missing_letter/banana.png" position="0" x="0" y="0" extra="banana/ba_ana/n/m/b/z/q"/>
+    <shape name="1" targetfile="" pixmapfile="missing_letter/maison.png" position="0" x="0" y="0" extra="house/_ouse/h/e/j/z/p/s"/>
+    <shape name="1" targetfile="" pixmapfile="missing_letter/pomme.png" position="0" x="0" y="0" extra="apple/app_e/l/h/n/i/t"/>
+    <shape name="1" targetfile="" pixmapfile="missing_letter/bed.png" position="0" x="0" y="0" extra="bed/be_/d/p/b/c/v/n"/>
+    <shape name="1" targetfile="" pixmapfile="missing_letter/bottle.png" position="0" x="0" y="0" extra="bottle/bott_e/l/y/r/s/g"/>
+    <shape name="1" targetfile="" pixmapfile="missing_letter/cake.png" position="0" x="0" y="0" extra="cake/ca_e/k/q/c/r/z"/>
+    <shape name="1" targetfile="" pixmapfile="missing_letter/ballon.png" position="0" x="0" y="0" extra="ball/bal_/l/h/s/z/t"/>
+</missing_letter>
+

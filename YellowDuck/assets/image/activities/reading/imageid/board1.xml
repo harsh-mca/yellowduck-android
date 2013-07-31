@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ImageId>
+  <shape name="1" targetfile="" pixmapfile="imageid/cartable.png" position="0" x="0" y="0" extra="satchel/cheese/house"/>
+  <shape name="2" targetfile="" pixmapfile="imageid/banana.png" position="0" x="0" y="0" extra="banana/house/book"/>
+  <shape name="3" targetfile="" pixmapfile="imageid/maison.png" position="0" x="0" y="0" extra="house/book/bag"/>
+  <shape name="4" targetfile="" pixmapfile="imageid/pomme.png" position="0" x="0" y="0" extra="apple/pear/cow"/>
+</ImageId>
