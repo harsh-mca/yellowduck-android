@@ -1,0 +1,8 @@
+---------------------------------------------Project Documents----------------------------------------------------
+author : Harsh Vardhan
+Date : 31-07-2013
+
+1 . Added two folders ( audio and image ) into Project's assets folder
+   (these two folders containg audio and image resource files)
+   
+2 . Inside assets/images folder Added a folder ( misc ) which is also Containing project resource image files
