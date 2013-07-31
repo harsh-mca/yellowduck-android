@@ -1,0 +1,5 @@
+META-INF
+YellowDuck
+abc.txt
+project-docs
+third-party jar
