@@ -293,7 +293,8 @@ public class YDConfiguration extends Object {
 		return Float.parseFloat(str);
 	}
 	private String normalizePath(String path) {
-		if (path != null&& path.startsWith("Assets/")) {
+	//	@harsh : change "Assets" with "assets"
+		if (path != null&& path.startsWith("assets/")) {
 			path=path.substring(7);
 		}
 		return path;
