@@ -26,6 +26,7 @@ import org.cocos2d.opengl.CCGLSurfaceView;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.LinearLayout;
 
 import com.google.ads.AdRequest;
@@ -40,7 +41,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         
         YDConfiguration.context=this.getApplicationContext();
-        
+         Log.e("harsh","log Started from MainActivity");
 		android.util.DisplayMetrics dm = new android.util.DisplayMetrics();
 	    getWindowManager().getDefaultDisplay().getMetrics(dm);
 	    YDConfiguration.sharedConfiguration().setScreenUnit(dm.densityDpi);
@@ -49,7 +50,7 @@ public class MainActivity extends Activity {
         _glSurfaceView = new CCGLSurfaceView(this);
         gameLayout.addView(_glSurfaceView);    
         
-        
+        Log.e("harsh","gameViewLayout loaded !!!");
         YDConfiguration.sharedConfiguration().setAdWidth(AdSize.BANNER.getWidth());
         YDConfiguration.sharedConfiguration().setAdHeight(AdSize.BANNER.getHeight());
     }
