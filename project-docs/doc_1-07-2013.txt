@@ -1,0 +1,31 @@
+Changed in CategoryLayer.java
+	added comments
+	change background.jpg to background.png
+
+Changed in IntroLayer.java 
+	
+		change  background1.png in CCSprite.sprite("background1.jpg");
+		changed background1.jpg to background1.png in spriteFromExpansionFile("image/misc/background1.png")
+Changed in MainActivity.java
+	added log statement 
+	
+Changed in SettingsLayer.java
+		changed background2.jpg tobackground2.png
+		placed one image as ok.png in image/misc/ folder   just  for testing purpose
+		
+changed in YDActLayerBase.java
+        Added Comment with @harsh notation 
+		
+changed in YDConfiguration.java
+        Changed "Assets" with "assets"
+		
+changed in YDLayerBase.
+        Added Log Statements 
+		Added Comment with @harsh notation 
+		Added a BachJSBrandenburg.mp3 file as temporary in audio/music/background/
+		
+		
+Added # files in 
+		assets/image/misc/ok.png
+		assets/image/misc/icon_base.png
+		assets/audio/music/background/BachJSBrandenburg.mp3
