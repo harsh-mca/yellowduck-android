@@ -51,7 +51,10 @@ public class IntroLayer extends YDLayerBase{
 	public void onEnter() {
 		super.onEnter();
 		//setup a simple background
-		CCSprite spriteBg=CCSprite.sprite("background1.jpg");
+		
+		// @harsh : change  background1.png in CCSprite.sprite("background1.jpg");
+		
+		CCSprite spriteBg=CCSprite.sprite("background1.png");
 		spriteBg.setScaleX(szWin.width/spriteBg.getContentSize().width);
 		spriteBg.setScaleY(szWin.height/spriteBg.getContentSize().height);
 		spriteBg.setPosition(szWin.width/2, szWin.height/2);
@@ -60,7 +63,10 @@ public class IntroLayer extends YDLayerBase{
 	}
 	public void update(float dt) {
 		if (!launched) {
-			CCSprite spriteBg=super.spriteFromExpansionFile("image/misc/background1.jpg");
+			 
+			// @harsh : changed background1.jpg to background1.png in spriteFromExpansionFile("image/misc/background1.png");
+			
+			CCSprite spriteBg=super.spriteFromExpansionFile("image/misc/background1.png");
 			if (spriteBg == null) {
 				CCLabel labelError=CCLabel.makeLabel(YDConfiguration.context.getString(R.string.msg_installation_err), super.sysFontName(), super.largeFontSize());
 				labelError.setColor(ccColor3B.ccRED);
