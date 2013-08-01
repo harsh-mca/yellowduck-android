@@ -54,6 +54,7 @@ import android.graphics.Typeface;
 import android.text.Layout.Alignment;
 import android.text.StaticLayout;
 import android.text.TextPaint;
+import android.util.Log;
 
 import com.android.vending.expansion.zipfile.APKExpansionSupport;
 import com.android.vending.expansion.zipfile.ZipResourceFile;
@@ -237,10 +238,12 @@ public abstract class YDLayerBase extends CCColorLayer {
 	}
 	
 	protected String renderSVG2Img(String svgFile, int width, int height) {
+		Log.e("harsh","renderSVG2Img function called  ");
 	    String cachedFile=this.getCachedImageName(svgFile, width, height);
 	    if (!new java.io.File(cachedFile).exists() && (expansionFile!=null)) {
 	        try { //http://code.google.com/p/svg-android-2/
 				// Get an input stream for a known file inside the expansion file ZIPs
+	        	Log.e("harsh","	new java.io.File(cachedFile).exists() && (expansionFile!=null == true");
 				InputStream fileStream = expansionFile.getInputStream(svgFile);
 	        	
         	    SVG svg = SVGParser.getSVGFromInputStream(fileStream);
@@ -277,6 +280,7 @@ public abstract class YDLayerBase extends CCColorLayer {
 	        }
 	        catch (Throwable e) {
 	        	android.util.Log.e("SVG", svgFile+":"+e.getMessage());
+	        	Log.e("harsh","excetion raised while calling renderSVG2Img function");
 	        	//e.printStackTrace();
 	        	cachedFile=null;
 	        }	        
@@ -427,7 +431,8 @@ public abstract class YDLayerBase extends CCColorLayer {
 			android.graphics.Bitmap withMask=android.graphics.Bitmap.createBitmap(canvasWidth, canvasHeight, android.graphics.Bitmap.Config.ARGB_8888);
 		    android.graphics.Canvas canvas=new android.graphics.Canvas(withMask);
 		    canvas.drawARGB(0, 0, 0, 0);
-		    
+		    // @harsh there is no icon_base.png file in image/misc/ so replacing icon_base.png to Icon.png
+		  // @harsh : placed one image as icon_base.png in image/misc/ folder just for  testing purpose 
 		    android.graphics.Bitmap base=this.decodeExpansionBitmap("image/misc/icon_base.png");
 		    canvas.drawBitmap(base, new android.graphics.Rect(0,0,base.getWidth(),base.getHeight()), new android.graphics.Rect(0,0, canvasWidth, canvasHeight), null);
 		    int xMargin=(canvasWidth-img.getWidth())/2;
@@ -492,6 +497,8 @@ public abstract class YDLayerBase extends CCColorLayer {
 		if (path == null) {
 	        int sel=this.nextInt(2);
 	        switch (sel) {
+	          // @harsh : there is no BachJSBrandenburg.mp3 file in audio/music/background/ so replacing BachJSBrandenburg.mp3 with BachJSBrandenburgConcertNo2inFMajorBWV1047mvmt1.mp3
+	         // @harsh : added new BachJSBrandenburg.mp3 file as temporary in audio/music/background/
 	            case 0:path="audio/music/background/BachJSBrandenburg.mp3";break;
 	            case 1:path="audio/music/background/LRLaPause.mp3";break;
 	        }
