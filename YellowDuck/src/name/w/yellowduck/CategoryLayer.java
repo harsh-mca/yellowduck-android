@@ -83,8 +83,8 @@ public class CategoryLayer extends YDLayerBase {
 	    	activeCategory=YDConfiguration.sharedConfiguration().getActiveCategory();
 	    }
 	    boolean topCategory=YDConfiguration.sharedConfiguration().isRoot(activeCategory);
-	
-	    super.setupBackground("image/misc/background.jpg",kBgModeFit);
+	//@harsh : background.jpg to background.png
+	    super.setupBackground("image/misc/background.png",kBgModeFit);
 	    super.setupTitle(activeCategory);
 	    
 	    //description located at the screen bottom
