@@ -22,7 +22,6 @@ package name.w.yellowduck;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-
 import org.cocos2d.actions.instant.CCCallFuncN;
 import org.cocos2d.actions.interval.CCDelayTime;
 import org.cocos2d.actions.interval.CCSequence;
@@ -199,6 +198,7 @@ public abstract class YDActLayerBase extends YDLayerBase {
 	    CCNode sender=(CCNode)_sender;
 	    switch (sender.getTag()) {
 	        case Schema.kSvgButtonHELP:
+	        	//@harsh :help.mp3 path from  assets\audio\voices\en\misc
 	            super.playVoice("misc/help.mp3");
 	            this.popupHelp(YDConfiguration.sharedConfiguration().getActiveCategory());
 	            break;
@@ -261,6 +261,7 @@ public abstract class YDActLayerBase extends YDLayerBase {
 	    }
 	    //do not play the voice if only the sublevel changed
 	    if (_current != mLevel) {
+	    	// @harsh : level.mp3 path from  assets\audio\voices\en\misc
 	        super.playVoice("misc/level.mp3");
 	        advanced2nextLevel=true;
 	    }
@@ -280,6 +281,7 @@ public abstract class YDActLayerBase extends YDLayerBase {
 	        }
 	    }
 	    if (_current != mLevel) {
+	    	// @harsh : level.mp3 path from  assets\audio\voices\en\misc
 	        super.playVoice("misc/level.mp3");
 	        advanced2nextLevel=true;	        
 	    }
@@ -291,6 +293,7 @@ public abstract class YDActLayerBase extends YDLayerBase {
 		if (shuttingDown)
 			return;
 		if (advanced2nextLevel) {
+			// @harsh : alphabet/U%04X.mp3 path from  assets\audio\voices\en\alphabet
 	        String voice=(mLevel <= 9) ? String.format("alphabet/U%04X.mp3", 0x30+mLevel) : String.format("alphabet/%d.mp3", mLevel);
 	        super.playVoice(voice);
 	        
@@ -369,6 +372,7 @@ public abstract class YDActLayerBase extends YDLayerBase {
 	            int sel=super.nextInt(6);
 	            switch (sel) {
 	                case 0:
+	                	 // @harsh : awesome.mp3 path from  assets\audio\voices\en\misc
 	                    voice="awesome.mp3";
 	                    break;
 	                case 1:
@@ -396,6 +400,7 @@ public abstract class YDActLayerBase extends YDLayerBase {
 	            int sel=super.nextInt(3);
 	            switch (sel) {
 	                case 0:
+	                	 // @harsh : flower_good.png path from  assets\image\bonus
 	                    pic="flower_good.png";
 	                    break;
 	                case 1:
