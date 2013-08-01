@@ -45,9 +45,10 @@ public class SettingsLayer extends YDLayerBase {
 
 	public void onEnter() {
 		super.onEnter();
-	
+	    // @harsh : changed background2.jpg tobackground2.png
+		
 		// ask director for the window size
-	    super.setupBackground("image/misc/background2.jpg", kBgModeFit);
+	    super.setupBackground("image/misc/background2.png", kBgModeFit);
 	    super.stopBackgroundMusic();
 	    super.playBackgroundMusic("audio/music/intro.mp3");
 	    super.setupSideToolbar(null, kOptionOk);
@@ -106,6 +107,8 @@ public class SettingsLayer extends YDLayerBase {
 	            menu.alignItemsHorizontally(100);
 	            super.addChild(menu,1);
 	            if (locale.equalsIgnoreCase(locales[i])) {
+	            	// @harsh : there is no ok.png file in misc folder so i repalced the "ok.png" to "star.png"
+	            	// @harsh : placed one image as ok.png in image/misc/ folder   just  for testing purpose
 	                spriteChecked=spriteFromExpansionFile("image/misc/ok.png");
 	                spriteChecked.setScale(label.getContentSize().height/spriteChecked.getContentSize().height);
 	                spriteChecked.setPosition(szWin.width/2-spriteChecked.getContentSize().width*spriteChecked.getScale()/2, yPos);
